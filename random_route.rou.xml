@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/11/21 20:27:14 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="my_net.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="random_route.rou.xml"/>
+        <alternatives-output value="random_route.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="50"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="1" depart="1.00">
+        <route edges="2to3 3to6"/>
+    </vehicle>
+    <vehicle id="6" depart="6.00">
+        <route edges="1to2 2to5"/>
+    </vehicle>
+    <vehicle id="10" depart="10.00">
+        <route edges="5to8"/>
+    </vehicle>
+    <vehicle id="11" depart="11.00">
+        <route edges="2to5"/>
+    </vehicle>
+    <vehicle id="13" depart="13.00">
+        <route edges="1to2 2to3"/>
+    </vehicle>
+    <vehicle id="14" depart="14.00">
+        <route edges="5to8"/>
+    </vehicle>
+    <vehicle id="16" depart="16.00">
+        <route edges="4to5 5to8 8to9"/>
+    </vehicle>
+    <vehicle id="17" depart="17.00">
+        <route edges="2to5 5to6"/>
+    </vehicle>
+    <vehicle id="18" depart="18.00">
+        <route edges="5to8"/>
+    </vehicle>
+    <vehicle id="21" depart="21.00">
+        <route edges="2to3 3to6"/>
+    </vehicle>
+    <vehicle id="22" depart="22.00">
+        <route edges="1to2 2to3 3to6"/>
+    </vehicle>
+    <vehicle id="28" depart="28.00">
+        <route edges="1to4 4to5 5to6 6to9"/>
+    </vehicle>
+    <vehicle id="29" depart="29.00">
+        <route edges="1to4 4to5"/>
+    </vehicle>
+    <vehicle id="31" depart="31.00">
+        <route edges="4to5 5to8"/>
+    </vehicle>
+    <vehicle id="33" depart="33.00">
+        <route edges="2to3"/>
+    </vehicle>
+    <vehicle id="39" depart="39.00">
+        <route edges="2to3 3to6"/>
+    </vehicle>
+    <vehicle id="44" depart="44.00">
+        <route edges="1to2 2to3"/>
+    </vehicle>
+    <vehicle id="45" depart="45.00">
+        <route edges="1to4 4to5 5to8"/>
+    </vehicle>
+    <vehicle id="49" depart="49.00">
+        <route edges="7to8"/>
+    </vehicle>
+</routes>

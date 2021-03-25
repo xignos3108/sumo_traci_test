@@ -1,0 +1,14 @@
+<configuration>
+
+<input>
+<net-file value="my_net.net.xml"/>
+<route-files value="my_route.rou.xml"/>
+<additional-files value="my_add.add.xml"/>
+</input>
+
+<time>
+<begin value="0"/>
+<end value="20000"/>
+</time>
+
+</configuration>

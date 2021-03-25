@@ -1,0 +1,8 @@
+1. netconvert
+netconvert --node-files my_node.nod.xml --edge-files my_edge.edg.xml -t my_type.type.xml -o my_net.net.xml
+
+2. python script
+python C:\Dev\SumoTutorials\Sumo_1\randomTrips.py -n my_net.net.xml -r random_route.rou.xml -e 50 -l
+
+
+netconvert -n 1x1grid.nod.xml -e 1x1grid.edg.xml -i 1x1grid_tl.add.xml -o 1x1grid.net.xml
